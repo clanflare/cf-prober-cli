@@ -5,8 +5,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/clanflare/cf-pariksha-cli/types"
-	"github.com/clanflare/cf-pariksha-cli/utils"
+	"github.com/clanflare/cf-prober-cli/types"
+	"github.com/clanflare/cf-prober-cli/utils"
 	"github.com/cqroot/prompt"
 	"github.com/spf13/cobra"
 )

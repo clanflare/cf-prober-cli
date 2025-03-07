@@ -5,7 +5,7 @@ import (
 	"os"
 	"slices"
 
-	"github.com/clanflare/cf-pariksha-cli/utils"
+	"github.com/clanflare/cf-prober-cli/utils"
 	"github.com/spf13/cobra"
 )
 
