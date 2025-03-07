@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/clanflare/cf-pariksha-cli/cmd"
+)
 
 func main() {
-	fmt.Println("Hello from CLI!")
+	cmd.Execute()
 }
