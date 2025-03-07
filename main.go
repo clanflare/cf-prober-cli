@@ -6,6 +6,7 @@ import (
 
 func main() {
 	cmd.RootCommand.AddCommand(cmd.InitCommand)
+	cmd.RootCommand.AddCommand(cmd.LoginCommand)
 
 	cmd.Execute()
 }
