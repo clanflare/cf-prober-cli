@@ -1,4 +1,4 @@
-module github.com/clanflare/cf-pariksha-cli
+module github.com/clanflare/cf-prober-cli
 
 go 1.23.5
 
