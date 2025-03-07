@@ -9,7 +9,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-var rootCommand = &cobra.Command{
+var RootCommand = &cobra.Command{
 	Use:   "bc",
 	Short: "bc is a command line tool for interacting with all the projects of Clanflare",
 	Long:  "bc is a command line tool for interacting with all the projects of Clanflare. It allows you to manage, run, configure and reports issues of a project from a single place. It does not matter where and how.",
@@ -25,8 +25,8 @@ var rootCommand = &cobra.Command{
 }
 
 func Execute() {
-	if err := rootCommand.Execute(); err != nil {
-		log.Println(os.Stderr, "Oops. An error while executing Zero '%s'\n", err)
+	if err := RootCommand.Execute(); err != nil {
+		log.Println("Error!!")
 		os.Exit(1)
 	}
 }
